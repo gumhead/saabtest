@@ -1,7 +1,6 @@
 import { FC, Fragment } from 'react';
 import Accordion from 'components/reuseable/accordion';
 // -------- data -------- //
-import { accordionList1 } from 'data/faq';
 
 const FAQ1: FC = () => {
   return (
