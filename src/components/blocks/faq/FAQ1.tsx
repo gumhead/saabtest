@@ -13,15 +13,6 @@ const FAQ1: FC = () => {
 
       <div className="accordion-wrapper" id="accordion">
         <div className="row">
-          //{accordionList1.map((items, i) => {
-          //  return (
-          //    <div className="col-md-6" key={i}>
-          //      {items.map((item) => (
-          //        <Accordion key={item.no} {...item} />
-          //      ))}
-              </div>
-            );
-          })}
         </div>
       </div>
     </Fragment>
