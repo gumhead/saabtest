@@ -51,9 +51,9 @@ const Home: NextPage = () => {
                                         <div className="ms-auto mt-6" style={slideInDownAnimate('900ms')}>
                                             <img
                                                 className="img-fluid rounded opacity-80"
-                                                src="/img/soap.jpg"
-                                                srcSet="/img/soap.jpg"
-                                                alt="Image of soap"
+                                                src="/img/photos/krognor.png"
+                                                srcSet="/img/photos/krognor.png"
+                                                alt="Krognor"
                                             />
                                         </div>
                                     </div>
