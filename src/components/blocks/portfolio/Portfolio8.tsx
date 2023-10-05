@@ -8,9 +8,9 @@ const Portfolio8: FC = () => {
   return (
     <section className="wrapper bg-light">
       <div className="container py-14 py-md-17">
-        <div className="row mb-8 text-center">
+        <div className="mb-8 text-center">
           <div className="col-lg-9 col-xl-8 col-xxl-7 mx-auto">
-            <h2 className="fs-16 text-uppercase text-primary mb-3"></h2>
+            <h1 className="fs-85 text-uppercase text-primary mb-3">Galleri</h1>
             <h3 className="display-4"></h3>
           </div>
         </div>

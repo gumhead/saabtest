@@ -1,11 +1,9 @@
 import {Fragment} from 'react';
 import type {NextPage} from 'next';
 import {slideInDownAnimate} from 'utils/animation';
-import {Navbar} from 'components/blocks/navbar';
 import PageProgress from 'components/common/PageProgress';
 import {Footer8} from "../src/components/blocks/footer";
-
-import "../src/components/blocks/ads/enableGoogleAdsense";
+import { Portfolio8 } from '../src/components/blocks/portfolio';
 const Home: NextPage = () => {
     return (
         <Fragment>
@@ -13,10 +11,6 @@ const Home: NextPage = () => {
 
             {/* ========== header section ========== */}
             <header className="wrapper bg-soft-primary">
-                <Navbar
-                    language
-                    search
-                />
             </header>
 
             <main className="content-wrapper">
@@ -30,7 +24,7 @@ const Home: NextPage = () => {
                                     Headlesstest
                                     <br/>
                                     <span className="typer text-primary text-nowrap">
-                                        <p>Lorem <br/> Ipsum</p>
+                                        <p>Lorem Ipsum</p>
                                     </span>
                                 </h1>
                                 <p className="lead fs-23 mb-7" style={slideInDownAnimate('900ms')}>
@@ -45,8 +39,8 @@ const Home: NextPage = () => {
                                     className="d-flex justify-content-center justify-content-lg-start mb-4"
                                     style={slideInDownAnimate('1200ms')}
                                 >
-                                    <a className="btn btn-lg btn-primary me-2 scroll" href="#indexdictionarylink">
-                                        Uppslagsverket
+                                    <a className="btn btn-lg btn-primary me-2 scroll" href="#photogallery">
+                                        Galleri
                                     </a>
                                 </div>
                             </div>
@@ -68,9 +62,9 @@ const Home: NextPage = () => {
                         </div>
                     </div>
                 </section>
-                <section className="wrapper bg-light" id="indexdictionarylink">
+                <section className="row wrapper bg-light pt-18">
                     <div className="overflow-hidden">
-                        <div className="divider text-soft-primary mx-n2">
+                        <div className="row divider mx-n2">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
                                 <path
                                     fill="currentColor"
@@ -85,74 +79,10 @@ const Home: NextPage = () => {
                     <div className="row gx-2 gy-10 align-items-center">
                         <div className="row gx-lg-8 gx-xl-0 gy-10 align-items-center">
                             <section className="wrapper bg-light">
-                                <div className="container pb-11 pb-md-14">
-                                    <div className="row gx-lg-8 gx-xl-0 gy-10 align-items-center mb-14 mb-md-16">
-                                        <div className="col-lg-6 col-xl-5 offset-xxl-1">
-                                            <div className="d-flex flex-row mb-7">
-                                                <div>
-                                                    <div
-                                                        className="icon btn btn-circle pe-none btn-soft-primary mt-1 me-4">
-                                                        <i className="uil uil-images"/>
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <h4 className="mb-1">deadlink</h4>
-                                                    <p className="mt-2">
-                                                        Deadlink1
-                                                    </p>
-                                                    <p className="mb-0">
-                                                        <a
-                                                            href="/om-oss"
-                                                            className="btn btn-primary rounded-pill me-2"
-                                                            rel="noreferrer">
-                                                            deadlink
-                                                        </a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div className="col-lg-6 col-xl-5 col-xxl-4 offset-xxl-1">
-                                            <div className="d-flex flex-row mb-7">
-                                                <div>
-                                                    <div
-                                                        className="icon btn btn-circle pe-none btn-soft-primary mt-1 me-4">
-                                                        <i className="uil uil-web-grid-alt"/>
-                                                    </div>
-                                                </div>
-
-                                                <div>
-                                                    <h4 className="mb-1">Uppslagsverk</h4>
-                                                    <p className="mt-2">
-                                                        jsontexttest-
-                                                    </p>
-                                                    <p className="mb-0">
-                                                        <a
-                                                            href="/dictionary"
-                                                            className="btn btn-primary rounded-pill me-2"
-                                                            rel="noreferrer">
-                                                            Uppslagsverk
-                                                        </a>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div id={"photogallery"} className="container pb-11 pb-md-14">
+                                    <Portfolio8 />
                                 </div>
                             </section>
-                        </div>
-                        <div className="col-lg-6 offset-xl-1 position-relative order-lg-2">
-                            <div
-                                className="shape rounded bg-soft-primary rellax d-block"
-                                style={{
-                                    zIndex: 0,
-                                    top: '50%',
-                                    left: '50%',
-                                    width: '50%',
-                                    height: '60%',
-                                    transform: 'translate(-50%,-50%)'
-                                }}
-                            />
                         </div>
                     </div>
                 </div>
