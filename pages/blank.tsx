@@ -1,13 +1,12 @@
 import { Fragment } from 'react';
 import type { NextPage } from 'next';
-import { Navbar } from 'components/blocks/navbar';
 
 const Blank: NextPage = () => {
     return (
         <Fragment>
             {/* ========== header section ========== */}
             <header className="wrapper mb-1">
-                <Navbar social navClassName="navbar navbar-expand-lg center-nav transparent navbar-light caret-none" />
+
             </header>
 
             <main className="content-wrapper">

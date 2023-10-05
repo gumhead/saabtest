@@ -4,10 +4,6 @@ import type { AppProps } from 'next/app';
 import { Fragment, useEffect } from 'react';
 import ThemeProvider from 'theme/ThemeProvider';
 import { Suspense } from 'react';
-import Script from 'next/script';
-import script from 'next/script';
-import "../src/components/blocks/ads/enableGoogleAdsense";
-import Fuse from 'fuse.js';
 
 // Bootstrap and custom scss
 import 'assets/scss/style.scss';
@@ -19,8 +15,6 @@ import 'swiper/css/free-mode';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/thumbs';
-// video player css
-import 'plyr-react/plyr.css';
 // glightbox css
 import 'glightbox/dist/css/glightbox.css';
 // custom scrollcue css
@@ -84,19 +78,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Headlesstest</title>
-        <Script
-            src="https://www.googletagmanager.com/"
-            strategy="afterInteractive"
-        />
-        <Script id="google-analytics">
-          {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-55555555');
-        `}
-        </Script>
       </Head>
 
       <ThemeProvider>

@@ -3,7 +3,6 @@ import { Link as ScrollLink } from 'react-scroll';
 import { FC, Fragment, ReactElement, ReactNode } from 'react';
 
 // -------- custom component -------- //
-import { Navbar } from 'components/blocks/navbar';
 import PageProgress from 'components/common/PageProgress';
 import NextLink from 'components/reuseable/links/NextLink';
 import useClipboard from 'hooks/useClipboard';
@@ -55,10 +54,6 @@ const DocLayout: FC<DocLayoutProps> = ({
       <div className="content-wrapper">
         {/* ========== header ========== */}
         <header className="wrapper bg-soft-primary">
-          <Navbar
-              language
-              search
-          />
         </header>
 
         {/* ========== page heading ========== */}
