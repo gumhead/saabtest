@@ -1,9 +1,11 @@
-import {Fragment} from 'react';
+import React, {Fragment} from 'react';
 import type {NextPage} from 'next';
 import {slideInDownAnimate} from 'utils/animation';
 import PageProgress from 'components/common/PageProgress';
 import {Footer8} from "../src/components/blocks/footer";
-import { Portfolio8 } from '../src/components/blocks/portfolio';
+import {Portfolio8} from '../src/components/blocks/portfolio';
+import {weatherComponent} from "../src/components/weather/weatherfunction1";
+
 const Home: NextPage = () => {
     return (
         <Fragment>
@@ -74,7 +76,19 @@ const Home: NextPage = () => {
                         </div>
                     </div>
                 </section>
+                <div className="container pt-10 pt-md-14">
+                    <div className="row gx-2 gy-10 align-items-center">
+                        <div className="row gx-lg-8 gx-xl-0 gy-10 align-items-center">
+                            <section className="wrapper bg-light">
+                                <div className="container pb-11 pb-md-14">
+                                    <div className="row gx-md-8 gy-10 gy-md-13 isotope">
 
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
                 <div className="container pt-10 pt-md-14">
                     <div className="row gx-2 gy-10 align-items-center">
                         <div className="row gx-lg-8 gx-xl-0 gy-10 align-items-center">
