@@ -2,9 +2,7 @@ import {NextPage} from 'next';
 import DictionaryLayout from 'components/layouts/DictionaryLayout';
 import {lista} from '../../../src/components/dictionarylist/lista';
 import parse from "html-react-parser";
-import Link from "next/link";
 import urlFetch from "../../../src/components/dictionarylist/urlFetch/urlFetch";
-
 const A: NextPage = () => {
     return (
         <DictionaryLayout pageTitle="Uppslagsverket" description="A">

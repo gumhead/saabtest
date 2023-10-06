@@ -5,10 +5,8 @@ import { FC, Fragment, ReactElement, ReactNode } from 'react';
 // -------- custom component -------- //
 import PageProgress from 'components/common/PageProgress';
 import NextLink from 'components/reuseable/links/NextLink';
-import useClipboard from 'hooks/useClipboard';
 import {Footer8} from "../blocks/footer";
 import Script from "next/script";
-
 
 // --------------- Google  Ads ---------------- //
 
@@ -34,8 +32,7 @@ const DocLayout: FC<DocLayoutProps> = ({
   descriptionClass = 'lead px-xxl-10',
   headingColClass = 'col-md-9 col-lg-7 col-xl-6 mx-auto'
 }) => {
-  // used for copy button
-  useClipboard();
+
   const { pathname } = useRouter();
 
   // render the links
