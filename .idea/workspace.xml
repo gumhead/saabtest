@@ -8,11 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9bcb9c31-f3af-4740-9212-c8df04a2e711" name="Changes" comment="trimmest">
-      <change afterPath="$PROJECT_DIR$/package-lock 2.json" afterDir="false" />
+    <list default="true" id="9bcb9c31-f3af-4740-9212-c8df04a2e711" name="Changes" comment="bugs1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/dictionarylist/urlFetch/urlFetch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dictionarylist/urlFetch/urlFetch.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="prod" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -574,7 +571,7 @@
       <option name="project" value="LOCAL" />
       <updated>1677254103738</updated>
     </task>
-    <option name="localTasksCounter" value="256" />
+    <option name="localTasksCounter" value="257" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,7 +601,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Brainatlas - semidone&#10;&#10;dictionary update. &#10;url, relatedlinks html include&#10;&#10;TODO:&#10;Scrape: n, p, s, t." />
     <MESSAGE value="Brainatlas - semidone&#10;&#10;json arrays update&#10;&#10;TODO:&#10;Scrape: n, p, s, t." />
     <MESSAGE value="&#10;&#10;TODO:&#10;Scrape: n, p, s, t." />
     <MESSAGE value="new json files implement. Dicitonary is complete now, sans relatedlinks. &#10;&#10;make sure listj: Jättecellkärnan = id 5555 dont show anywhere else. &#10;&#10;TODO:&#10;Scrape: n, p, s, t." />
@@ -629,7 +625,8 @@
     <MESSAGE value="file trimparty" />
     <MESSAGE value="more trimmming" />
     <MESSAGE value="trimmest" />
-    <option name="LAST_COMMIT_MESSAGE" value="trimmest" />
+    <MESSAGE value="bugs1" />
+    <option name="LAST_COMMIT_MESSAGE" value="bugs1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
